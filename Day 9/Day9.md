@@ -172,22 +172,26 @@ console.log(myArray); /// ['item1', 'inserted item1', 'inserted item2'] // Chang
 * This - this is that object, whih calls the method
 ```js
 function personInfo(){
-    console.log(`Person name is ${this.firstName} and age is ${this.age}`);}
+    console.log(`Person name is ${this.firstName} and age is ${this.age}`);
+    }
 
 const person1 = {
     firstName : "ashi",
     age: 1,
-    about: personInfo}
+    about: personInfo
+    }
 
 const person2 = {
     firstName : "ishu",
     age: 2,
-    about: personInfo}
+    about: personInfo
+    }
     
 const person3 = {
     firstName : "ayushi",
     age: 3,
-    about: personInfo}
+    about: personInfo
+    }
 
 person1.about(); /// Person name is ashi and age is 1   
 person2.about(); /// Person name is ishu and age is 2
